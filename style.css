@@ -1,0 +1,69 @@
+body {
+	text-align: center;
+	background-image: url(http://www.avanttrh.com.br/img/fundo/fundo-header.jpg);
+	background-size: 100%;
+}
+header {
+	flex-direction: row;
+	background-image: linear-gradient(to bottom right, #195785, #195785, red);
+	color: white;
+}
+@media (max-width: 570px) {
+	header {
+
+	}
+}
+a {
+	color: white;
+	text-decoration: none;
+}
+span {
+	width: 80%;
+}
+.menu-item {
+	width: 100%;
+	display: flex;
+	justify-content: space-evenly;
+}
+@media (max-width: 640px) {
+	.menu-item {
+		flex-direction: column;
+	}
+}
+h2 {
+	color: white;
+}
+p {
+	font-size: 1.2rem;
+	color: white;
+}
+section {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	box-shadow: 0.5px 0.5px 0.5px 0.5px red;
+}
+div {
+	display: flex;
+	align-items: center;
+	justify-content: space-evenly;
+}
+@media (max-width: 640px) {
+	div {
+		flex-direction: column;
+	}
+}
+
+img {
+	width: 40%;
+	border-radius: 50%;
+	transition: 0.5s ease;
+}
+@media (max-width: 640px) {
+	img {
+		width: 95%;
+	}
+}
+img:hover {
+	border-radius: 0;
+}
